@@ -4,9 +4,7 @@ A production-aware AI agent that autonomously researches companies, validates st
 
 ## Background & Motivation
 
-I've spent 6 years building RPA and intelligent automation solutions, including production deployments at an enterprise financial institution. Traditional RPA bots are powerful for deterministic, structured workflows — but they break the moment something unexpected happens: a webpage layout changes, a search returns an ambiguous result, or the data doesn't match the expected format. A developer has to intervene every time.
-
-This project explores the practical difference between that approach and a modern AI agent architecture. Rather than building a brittle rule-based pipeline, the agent reasons about what to do when things go wrong — falling back to alternate data sources, self-correcting invalid output, and logging exactly what happened at each step. These are the properties that matter in real enterprise systems.
+I've spent 6 years building RPA and intelligent automation solutions across financial services, federal government consulting, healthcare, and insurance — including production deployments at State Farm, Mercy Hospital, Deloitte, and Capital One. Traditional RPA bots excel at deterministic, structured workflows and remain the right tool for many enterprise automation problems. This project explores where AI agents extend that capability — specifically in scenarios involving ambiguous data, unreliable sources, or outputs that require reasoning rather than rule-following.
 
 ## How It Works
 
