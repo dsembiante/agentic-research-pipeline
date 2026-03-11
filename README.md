@@ -67,7 +67,7 @@ Giving the agent two separate tools — `search_wikipedia` and `search_duckduckg
 - **LLM**: [Ollama](https://ollama.com/) running `llama3.1` (local, no API key required)
 - **Agent Framework**: LangChain with tool-calling agent
 - **Output Validation**: Pydantic v2 with custom field validators
-- **Search**: Wikipedia scraping + DuckDuckGo fallback via `duckduckgo-search`
+- **Search**: Wikipedia scraping via requests + BeautifulSoup + DuckDuckGo fallback via duckduckgo-search
 - **Observability**: Custom structured run logger with per-company tool call tracking
 - **Data**: Pandas (CSV input), JSON (structured output)
 
