@@ -1,0 +1,9 @@
+langchain
+langchain-community
+langchain-ollama
+langchain-core
+pydantic>=2.0
+requests
+beautifulsoup4
+pandas
+duckduckgo-search
